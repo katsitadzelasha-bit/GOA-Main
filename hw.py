@@ -1,25 +1,31 @@
-# debugging პითონში გულისხმობს კოდში შეცდომების პოვნას და გამოსწორებას. 
-name=13
-name=14
-print(name)
+age=int(input("please enter your name:"))
+result= age//10
+print=("result")
+
+num1 = float(input("11: "))
+num2 = float(input("9: "))
+product = num1 * num2
+
+print("product")
+age = input("Enter your age: ")
+
+age = int(age)   
+
+print("Your age (as an integer):", age) 
 
 
+num=float(input("6: "))
+num1 = float(input("8: "))
+num2 = float(input("12: "))
+
+average = (num + num1 + num2) / 3
+
+print(average)
 
 
-first_name=("lasha")
-last_name=("katsitadze")
+birth_year = int(input("2012"))
 
-full_name=first_name + " " + last_name
-print(full_name)
+current_year = 2025 
+age = current_year - birth_year
 
-
-
-name=("saba")
-name=("giorgi")
-print(name)
-
-
-num = "40"
-print(num * 3)
-
-
+print( age)
