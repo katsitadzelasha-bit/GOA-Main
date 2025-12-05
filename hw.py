@@ -1,31 +1,9 @@
-age=int(input("please enter your name:"))
-result= age//10
-print=("result")
+# str() თეგს მონაცემი გადაყავს სტრინგად float() თეგს მონაცემი გადაყავს ფლოთად int() თეგს მონაცემი გადაყავს ინტეჯერად.
 
-num1 = float(input("11: "))
-num2 = float(input("9: "))
-product = num1 * num2
+age1 = int(input("შეიყვანეთ პირველი ოჯახის წევრის ასაკი: "))
+age2 = int(input("შეიყვანეთ მეორე ოჯახის წევრის ასაკი: "))
+age3 = int(input("შეიყვანეთ მესამე ოჯახის წევრის ასაკი: "))
 
-print("product")
-age = input("Enter your age: ")
-
-age = int(age)   
-
-print("Your age (as an integer):", age) 
-
-
-num=float(input("6: "))
-num1 = float(input("8: "))
-num2 = float(input("12: "))
-
-average = (num + num1 + num2) / 3
-
-print(average)
-
-
-birth_year = int(input("2012"))
-
-current_year = 2025 
-age = current_year - birth_year
-
-print( age)
+print("პირველი ოჯახის წევრი იქნება", age1 + 25, "წლის შემდეგ.")
+print("მეორე ოჯახის წევრი იქნება", age2 + 25, "წლის შემდეგ.")
+print("მესამე ოჯახის წევრი იქნება", age3 + 25, "წლის შემდეგ.")
